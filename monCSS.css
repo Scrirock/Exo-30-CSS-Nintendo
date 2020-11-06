@@ -1,0 +1,130 @@
+/* hover d10000   avant e60012*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    padding-right: 12px;
+    padding-top: 15px;
+
+}
+
+#bordure{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+div{
+    background-color: #e60012;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 70px;
+}
+
+#grand{
+    font-size: 35px;
+    text-align: center;
+}
+
+.changer{
+    float: left;
+}
+
+.changer:hover{
+    background-color: #d10000;
+}
+
+.logo{
+    z-index: -1;
+    width: 100%;
+    height: 75px;
+    float: left;
+}
+
+.hautD{
+    float: right;
+}
+
+#chapeau{
+    top: -75px;
+    z-index: 1;
+    width: 110px;
+    right: -120px;
+    height: 75px;
+}
+
+.rond{
+    border-radius: 0 15px 0 0;
+}
+
+a{
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    position: relative;
+    top: -27px;
+    right: 5px;
+}
+
+#loupe{
+    top: -75px;
+    z-index: 1;
+    right: 250px;
+    height: 75px;
+}
+
+
+
+#cadi{
+    top: -75px;
+    z-index: 1;
+    right: 90px;
+    height: 75px;
+}
+
+#jeux{
+    left: -70px;
+    top: 104px;
+}
+
+#shop{
+    left: -140px;
+    top: 178px;
+}
+
+#question{
+    left: -210px;
+    top: 280px;
+}
+
+#store{
+    left: -280px;
+    top: 354px;
+}
+
+#bonhomme{
+    left: -350px;
+    top: 443px;
+}
+
+#point{
+    left: -420px;
+    top: 502px;
+}
+
+#fleche{
+    height: 75px;
+    left: -490px;
+    top: 540px;
+}
